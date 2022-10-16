@@ -1,0 +1,4 @@
+version=4
+opts="filenamemangle=s%(?:.*?)?v?(\d[\d.]*)\.tar\.gz%pytest_lazy_fixture-$1.tar.gz%" \
+   https://github.com/tvorog/pytest-lazy-fixture/tags \
+   (?:.*?/)?v?(\d[\d.]*)\.tar\.gz debian uupdate

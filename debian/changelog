@@ -1,0 +1,53 @@
+python-pytest-lazy-fixture (0.6.3-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Contact.
+  * Set field Upstream-Contact in debian/copyright.
+  * Remove obsolete field Contact from debian/upstream/metadata (already present
+    in machine-readable debian/copyright).
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 17 Oct 2022 00:52:18 +0100
+
+python-pytest-lazy-fixture (0.6.3-1) unstable; urgency=medium
+
+  * Team Upload.
+
+  [ Emmanuel Arias ]
+  * Update standards version to 4.5.1.
+  * d/watch: remove template lines from watch.
+  * d/tests: configure import-name to the correct module name.
+  * New upstream version 0.6.3.
+  * d/salsa-ci.yml: enable salsa-ci.
+  * Update d/control file. Change the redundant lines on
+    Build-Depends filed: debhelper (>12), debhelper-compat(=12),
+    for debhelper-compat (=12). This was a recomendation of Scott
+    Kitterman.
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Michael Fladischer ]
+  * Move salsa-ci.yml to debian directory.
+  * Run wrap-and-sort -bast to reduce diff size of future changes.
+  * Bump debhelper version to 13.
+  * Bump Standards-Version to 4.6.0.1.
+  * Add python3-pytest to Build-Depends, required by tests.
+  * Set Rules-Requires-Root: no.
+  * Run upstream tests during build.
+  * Enable upstream testsuite for autopkgtests.
+  * Remove unnecessary autopkgtest-pkg-python testsuite.
+
+ -- Michael Fladischer <fladi@debian.org>  Fri, 22 Oct 2021 19:35:58 +0000
+
+python-pytest-lazy-fixture (0.5.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #920923)
+
+ -- Joel Cross <joel@kazbak.co.uk>  Thu, 31 Jan 2019 15:38:05 +0000
