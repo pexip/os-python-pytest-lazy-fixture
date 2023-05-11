@@ -1,3 +1,9 @@
+python-pytest-lazy-fixture (0.6.3-2pexip1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- Huw Jones <huw@pexip.com>  Thu, 11 May 2023 13:49:11 +0100
+
 python-pytest-lazy-fixture (0.6.3-2) unstable; urgency=medium
 
   [ Debian Janitor ]
